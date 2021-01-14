@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/moviestorm/static/css/main.646add03.chunk.css",
+    "main.js": "/moviestorm/static/js/main.0fd82665.chunk.js",
+    "main.js.map": "/moviestorm/static/js/main.0fd82665.chunk.js.map",
+    "runtime-main.js": "/moviestorm/static/js/runtime-main.8b9b626a.js",
+    "runtime-main.js.map": "/moviestorm/static/js/runtime-main.8b9b626a.js.map",
+    "static/js/2.7196d313.chunk.js": "/moviestorm/static/js/2.7196d313.chunk.js",
+    "static/js/2.7196d313.chunk.js.map": "/moviestorm/static/js/2.7196d313.chunk.js.map",
+    "static/js/3.1603c4a8.chunk.js": "/moviestorm/static/js/3.1603c4a8.chunk.js",
+    "static/js/3.1603c4a8.chunk.js.map": "/moviestorm/static/js/3.1603c4a8.chunk.js.map",
+    "index.html": "/moviestorm/index.html",
+    "static/css/main.646add03.chunk.css.map": "/moviestorm/static/css/main.646add03.chunk.css.map",
+    "static/js/2.7196d313.chunk.js.LICENSE.txt": "/moviestorm/static/js/2.7196d313.chunk.js.LICENSE.txt",
+    "static/media/StrangerThings.ab4bdc46.mp4": "/moviestorm/static/media/StrangerThings.ab4bdc46.mp4",
+    "static/media/spinner.baacf79e.gif": "/moviestorm/static/media/spinner.baacf79e.gif",
+    "static/media/App.scss": "/moviestorm/static/media/stranger_things.ed0e7f4e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b9b626a.js",
+    "static/js/2.7196d313.chunk.js",
+    "static/css/main.646add03.chunk.css",
+    "static/js/main.0fd82665.chunk.js"
+  ]
+}
