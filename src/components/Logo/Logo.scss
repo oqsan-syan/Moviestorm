@@ -1,0 +1,55 @@
+// Color
+$pink: #f41fbf;
+$purple: #b028ff;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 15vh;
+  margin: 1vh 0;
+}
+
+// Logo text
+.logo-text {
+  $random-text: 'MovieStorm';
+  position: relative;
+  $stroke-width: 60px * 0.05;
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: lighten($pink, 25%);
+  -webkit-text-stroke-width: $stroke-width;
+  -webkit-text-stroke-color: lighten($purple, 5%);
+  @include center;
+  text-shadow: 0 0 40px lighten($pink, 5%),
+               0 0 40px lighten($pink, 5%),
+               0 0 40px lighten($purple, 5%);
+  &:after {
+    content: $random-text;
+    z-index: -1;
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: darken($purple, 40%);
+    top: -5%;
+    left: -0.5%;
+  }
+}
+
+@media(max-width: 660px) {
+  .logo-text {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 475px) {
+  .logo-text {
+    font-size: 30px;
+  }
+}

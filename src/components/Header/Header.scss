@@ -1,0 +1,28 @@
+.header {
+  height: 15vh;
+  .MuiAppBar-colorPrimary{
+    background-image: linear-gradient(45deg, #702D54, #380634);
+  }
+  .MuiAppBar-root {
+   border-radius: 5px;
+  }
+
+  .MuiButton-root {
+    color: #fff !important;
+  }
+}
+
+@media(max-width:425px) {
+  .MuiInputBase-root, 
+  .makeStyles-searchIcon-5 {
+    font-size: 11px !important;
+  }
+}
+
+@media(min-width:600px) {
+  .MuiToolbar-regular {
+    min-height: unset !important;
+  }
+}
+
+

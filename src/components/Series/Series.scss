@@ -1,0 +1,39 @@
+.series {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  justify-content: space-around;
+  grid-row-gap: 20px;
+  .MuiCardMedia-root.makeStyles-media-13 {
+    background-position: top center;
+    height: 340px;
+    background-repeat: no-repeat;
+  }
+  .MuiTypography-body2 {
+    font-size: 12px;
+  }
+  .makeStyles-root-12 {
+    color: #fff;
+    background-color: #8882a387;
+    margin: 0 auto;
+  }
+  .MuiTypography-colorTextSecondary {
+    color: #fff;
+  }
+  .MuiButton-containedPrimary {
+    background-color: #2c1529;
+  }
+  .MuiCard-root {
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 570px) {
+  .series {
+    grid-template-columns: unset;
+    text-align: center;
+  }
+  .series .makeStyles-root-12 {
+    width: 90%;
+  }
+}

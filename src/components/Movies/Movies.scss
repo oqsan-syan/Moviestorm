@@ -1,0 +1,42 @@
+.movies {
+  display: grid;
+  margin: 0 auto;
+  padding-top: 30px;
+  .MuiCardActionArea-root {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .MuiCardMedia-root.makeStyles-media-13 {
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .MuiTypography-body2 {
+    font-size: 16px;
+  }
+  .makeStyles-root-12 {
+    color: #fff;
+    background-color: #8882a387;
+  }
+  .MuiTypography-colorTextSecondary {
+    color: #fff;
+  }
+  .MuiButton-containedPrimary {
+    background-color: #2c1529;
+  }
+}
+
+@media(max-width:768px) {
+  .movies .MuiCardActionArea-root {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 625px) {
+  .movies .MuiCardActionArea-root {
+    grid-template-columns: 1fr;
+  }
+  .movies .MuiCardMedia-root.makeStyles-media-13 {
+    background-size: cover;
+  }
+}
